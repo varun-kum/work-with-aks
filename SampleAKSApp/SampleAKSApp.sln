@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30804.86
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleAKSApp", "SampleAKSApp\SampleAKSApp.csproj", "{5D8BBE34-8097-4D66-8335-63F55ECD18DA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleAKSApp", "SampleAKSApp.csproj", "{5D8BBE34-8097-4D66-8335-63F55ECD18DA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
