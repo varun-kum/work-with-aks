@@ -16,4 +16,5 @@
     Search Container Instance in the Add Resource. Select networking type as Public with a unique DNS label. This will create an new Public IP for the container instance. 
     
     <img src="Images/1.1.PNG" width="400" height="400"/>
-8. Access the URL.
+8. Access the FQDN URL created for your container instance in format.</br>
+    `http://<DNS Label>.<Region>.azurecontainer.io`
