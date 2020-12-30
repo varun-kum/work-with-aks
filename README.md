@@ -1,6 +1,6 @@
-# work-with-aks
+# Azure Kubernetes Service
 
-1: Creating Container Instance on Azure using the Docker Image
+## 1: Creating Container Instance on Azure using the Docker Image
 1. Open Cloud Shell on Azure Portal.
 2. Create a resource group in the portal or the CLI for the AKS resource.    
     `az group create --name rg-aks-001 --location eastus`
