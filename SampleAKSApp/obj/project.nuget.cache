@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "yGPs7CXcxLoTwY11OO5o8L5UlyqCFv0tshVA1sw4aKtJFIxBKcSLw5SzavA+ySHzgaAMA50zj1tCKqJK+axmGQ==",
+  "success": true,
+  "projectFilePath": "D:\\Varun\\GITHUB\\work-with-aks\\SampleAKSApp\\SampleAKSApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\varkum\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.0.1\\microsoft.aspnetcore.app.ref.3.0.1.nupkg.sha512",
+    "C:\\Users\\varkum\\.nuget\\packages\\microsoft.netcore.app.ref\\3.0.0\\microsoft.netcore.app.ref.3.0.0.nupkg.sha512",
+    "C:\\Users\\varkum\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.0.3\\microsoft.netcore.app.host.win-x64.3.0.3.nupkg.sha512",
+    "C:\\Users\\varkum\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.0.0\\microsoft.windowsdesktop.app.ref.3.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
