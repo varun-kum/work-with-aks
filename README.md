@@ -37,11 +37,21 @@
       REGION=eastus
  ```      
 4. Build the Docker Image for the colsole app and push it to the ACR.   
-     `az acr build --registry $ACR_Name --image sampleaksconsole:1.0 .`
+    `az acr build --registry $ACR_Name --image sampleaksconsole:1.0 .`
 5. Attach the ACR to the AKS Cluster
-     `az aks update -n $AKS_Name -g $RG_Name --attach-acr $(az acr show -n $ACR_Name --query "id" -o tsv)`
+    </br> `az aks update -n $AKS_Name -g $RG_Name --attach-acr $(az acr show -n $ACR_Name --query "id" -o tsv)`
 6. Connect to AKS Cluster
-     `az aks get-credentials --resource-group $RG_Name --name $AKS_Name`
+    </br> `az aks get-credentials --resource-group $RG_Name --name $AKS_Name`
 7. Open ca-console-pod.yaml on the Azure PowerShell and provide the image name with the ACR name.
 8. Deploy sampleaksconsole Pod from the manifest file.
-     `kubectl create -f ./ca-console-pod.yaml`
+     </br>`kubectl create -f ./ca-console-pod.yaml`
+
+## 3: Deploying AKS Service and Load balancer
+1. Navigate to the SampleAKSApp folder of the repo.
+2. Open ca-lb-deploy.yaml on the Azure PowerShell and provide the image name with the ACR name.
+3. Deploy the service.
+    </br> `kubectl create -f k8s-deploy.yaml`
+4. Check the service and the deployment resources. 
+    </br> `kubectl get all`
+          `kubectl get svc`
+5. Open the Public IP of the service on the browser. (It make take a couple of minutes for the public IP to provision).
